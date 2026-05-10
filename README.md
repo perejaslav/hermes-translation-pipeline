@@ -4,6 +4,20 @@
 
 Архитектура: **Ingestion → Foundation → Chunking → Parallel Translation → Quality Gates → Assembly**.
 
+## Migration Notice
+
+**This repository is now a historical reference.**
+
+The canonical implementation has moved to:
+
+**https://github.com/perejaslav/hermes-ru-document-translator**
+
+The unified pipeline (v0.2+) combines the methodology from this repository with the production-ready infrastructure of hermes-ru-document-translator. Key features preserved: Foundation stage, 2-wave translation, 5 QA gates, repair/remediation, backend abstraction.
+
+This repository will no longer be updated for the unified pipeline scope.
+
+---
+
 ## Возможности
 
 - **Ingestion** — извлечение текста из PDF, DOCX, EPUB, MD, HTML, TXT (через Pandoc)
